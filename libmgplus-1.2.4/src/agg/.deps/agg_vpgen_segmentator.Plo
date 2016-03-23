@@ -1,0 +1,41 @@
+agg_vpgen_segmentator.lo: agg_vpgen_segmentator.cpp \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/math.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/features.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/uClibc_config.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/sys/cdefs.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/huge_val.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/huge_valf.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/huge_vall.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/inf.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/nan.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/mathdef.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/mathcalls.h \
+ agg_vpgen_segmentator.h agg_basics.h agg_config.h
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/math.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/features.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/uClibc_config.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/sys/cdefs.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/huge_val.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/huge_valf.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/huge_vall.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/inf.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/nan.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/mathdef.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/mathcalls.h:
+
+agg_vpgen_segmentator.h:
+
+agg_basics.h:
+
+agg_config.h:

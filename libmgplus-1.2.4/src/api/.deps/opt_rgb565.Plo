@@ -1,0 +1,428 @@
+opt_rgb565.lo: opt_rgb565.cpp ../../mgplusconfig.h \
+ ../agg/agg_pixfmt_rgba.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/string.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/features.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/uClibc_config.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/sys/cdefs.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../lib/gcc/arm-uclinuxeabi/4.4.1/include/stddef.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/math.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/huge_val.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/huge_valf.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/huge_vall.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/inf.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/nan.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/mathdef.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/mathcalls.h \
+ ../agg/agg_basics.h ../agg/agg_config.h ../agg/agg_color_rgba.h \
+ ../agg/agg_rendering_buffer.h ../agg/agg_array.h \
+ ../agg/agg_pixfmt_rgb_packed.h ../agg/agg_renderer_base.h \
+ ../agg/agg_conv_stroke.h ../agg/agg_vcgen_stroke.h \
+ ../agg/agg_math_stroke.h ../agg/agg_math.h ../agg/agg_vertex_sequence.h \
+ ../agg/agg_conv_adaptor_vcgen.h ../agg/agg_scanline_u.h \
+ ../agg/agg_trans_bilinear.h ../agg/agg_simul_eq.h ../agg/agg_ellipse.h \
+ ../agg/agg_gamma_lut.h ../agg/agg_gradient_lut.h ../agg/agg_dda_line.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/stdlib.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/waitflags.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/waitstatus.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/endian.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/endian.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/sys/types.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/types.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/wordsize.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/typesizes.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/pthreadtypes.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/sched.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/time.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/sys/select.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/select.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/sigset.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/time.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/sys/sysmacros.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/alloca.h \
+ ../agg/agg_color_gray.h ../agg/agg_span_gradient.h \
+ ../agg/agg_gamma_ctrl.h ../agg/agg_gamma_spline.h ../agg/agg_bspline.h \
+ ../agg/agg_ellipse.h ../agg/agg_conv_stroke.h ../agg/agg_gsv_text.h \
+ ../agg/agg_conv_transform.h ../agg/agg_trans_affine.h ../agg/agg_ctrl.h \
+ ../agg/agg_renderer_scanline.h ../agg/agg_renderer_base.h \
+ ../../include/mgplus.h \
+ /usr/local/minigui/cross/arm/cortex-m3/include/minigui/common.h \
+ /usr/local/minigui/cross/arm/cortex-m3/include/minigui/mgconfig.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../lib/gcc/arm-uclinuxeabi/4.4.1/include-fixed/limits.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../lib/gcc/arm-uclinuxeabi/4.4.1/include-fixed/syslimits.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/limits.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/posix1_lim.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/local_lim.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/linux/limits.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/uClibc_local_lim.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/posix2_lim.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/xopen_lim.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/stdio_lim.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/pthread.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/sched.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/uClibc_clk_tck.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/signal.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/initspin.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/sigthread.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/semaphore.h \
+ /usr/local/minigui/cross/arm/cortex-m3/include/minigui/minigui.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/stdio.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/uClibc_stdio.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/wchar.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/wchar.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/uClibc_mutex.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/uClibc_pthread.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../lib/gcc/arm-uclinuxeabi/4.4.1/include/stdarg.h \
+ /usr/local/minigui/cross/arm/cortex-m3/include/minigui/gdi.h \
+ /usr/local/minigui/cross/arm/cortex-m3/include/minigui/endianrw.h \
+ /usr/local/minigui/cross/arm/cortex-m3/include/minigui/fixedmath.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/errno.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/errno.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/linux/errno.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/asm/errno.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/asm-generic/errno.h \
+ /home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/asm-generic/errno-base.h \
+ pen.h path.h ../agg/agg_path_storage.h ../agg/agg_bezier_arc.h \
+ ../agg/agg_basics.h ../agg/agg_curves.h ../agg/agg_arc.h \
+ ../agg/agg_conv_bspline.h ../agg/agg_vcgen_bspline.h \
+ ../agg/agg_path_storage_integer.h ../agg/agg_rounded_rect.h \
+ ../agg/agg_arc.h ../agg/agg_conv_curve.h ../agg/agg_curves.h graphics.h \
+ ../agg/agg_rendering_buffer.h ../agg/agg_rasterizer_scanline_aa.h \
+ ../agg/agg_rasterizer_cells_aa.h ../agg/agg_rasterizer_sl_clip.h \
+ ../agg/agg_clip_liang_barsky.h ../agg/agg_gamma_functions.h \
+ ../agg/agg_scanline_p.h ../agg/agg_renderer_scanline.h \
+ ../agg/agg_conv_segmentator.h ../agg/agg_conv_adaptor_vpgen.h \
+ ../agg/agg_vpgen_segmentator.h ../agg/agg_trans_single_path.h \
+ ../agg/agg_image_accessors.h ../agg/interactive_polygon.h \
+ ../agg/agg_span_allocator.h ../agg/agg_span_interpolator_linear.h \
+ ../agg/agg_span_image_filter_rgb.h ../agg/agg_span_image_filter.h \
+ ../agg/agg_image_filters.h ../agg/agg_span_interpolator_linear.h \
+ ../agg/agg_span_image_filter_rgba.h ../agg/agg_span_image_filter_gray.h \
+ ../agg/agg_span_gouraud_rgba.h ../agg/agg_span_gouraud.h \
+ ../agg/agg_spline_ctrl.h ../agg/agg_path_storage.h \
+ ../agg/agg_trans_perspective.h ../agg/agg_pixfmt_gray.h \
+ ../agg/agg_alpha_mask_u8.h ../agg/agg_platform_support.h \
+ ../agg/agg_trans_viewport.h brush.h opt_basic.cpp ../agg/agg_conv_dash.h \
+ ../agg/agg_vcgen_dash.h ../agg/agg_math_stroke.h \
+ ../agg/agg_bounding_rect.h ../agg/agg_renderer_primitives.h \
+ ../agg/agg_ellipse_bresenham.h ../agg/agg_rasterizer_outline.h \
+ ../agg/agg_span_converter.h self_stroke.h
+
+../../mgplusconfig.h:
+
+../agg/agg_pixfmt_rgba.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/string.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/features.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/uClibc_config.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/sys/cdefs.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../lib/gcc/arm-uclinuxeabi/4.4.1/include/stddef.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/math.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/huge_val.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/huge_valf.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/huge_vall.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/inf.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/nan.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/mathdef.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/mathcalls.h:
+
+../agg/agg_basics.h:
+
+../agg/agg_config.h:
+
+../agg/agg_color_rgba.h:
+
+../agg/agg_rendering_buffer.h:
+
+../agg/agg_array.h:
+
+../agg/agg_pixfmt_rgb_packed.h:
+
+../agg/agg_renderer_base.h:
+
+../agg/agg_conv_stroke.h:
+
+../agg/agg_vcgen_stroke.h:
+
+../agg/agg_math_stroke.h:
+
+../agg/agg_math.h:
+
+../agg/agg_vertex_sequence.h:
+
+../agg/agg_conv_adaptor_vcgen.h:
+
+../agg/agg_scanline_u.h:
+
+../agg/agg_trans_bilinear.h:
+
+../agg/agg_simul_eq.h:
+
+../agg/agg_ellipse.h:
+
+../agg/agg_gamma_lut.h:
+
+../agg/agg_gradient_lut.h:
+
+../agg/agg_dda_line.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/stdlib.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/waitflags.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/waitstatus.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/endian.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/endian.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/sys/types.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/types.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/wordsize.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/typesizes.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/pthreadtypes.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/sched.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/time.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/sys/select.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/select.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/sigset.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/time.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/sys/sysmacros.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/alloca.h:
+
+../agg/agg_color_gray.h:
+
+../agg/agg_span_gradient.h:
+
+../agg/agg_gamma_ctrl.h:
+
+../agg/agg_gamma_spline.h:
+
+../agg/agg_bspline.h:
+
+../agg/agg_ellipse.h:
+
+../agg/agg_conv_stroke.h:
+
+../agg/agg_gsv_text.h:
+
+../agg/agg_conv_transform.h:
+
+../agg/agg_trans_affine.h:
+
+../agg/agg_ctrl.h:
+
+../agg/agg_renderer_scanline.h:
+
+../agg/agg_renderer_base.h:
+
+../../include/mgplus.h:
+
+/usr/local/minigui/cross/arm/cortex-m3/include/minigui/common.h:
+
+/usr/local/minigui/cross/arm/cortex-m3/include/minigui/mgconfig.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../lib/gcc/arm-uclinuxeabi/4.4.1/include-fixed/limits.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../lib/gcc/arm-uclinuxeabi/4.4.1/include-fixed/syslimits.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/limits.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/posix1_lim.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/local_lim.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/linux/limits.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/uClibc_local_lim.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/posix2_lim.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/xopen_lim.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/stdio_lim.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/pthread.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/sched.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/uClibc_clk_tck.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/signal.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/initspin.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/sigthread.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/semaphore.h:
+
+/usr/local/minigui/cross/arm/cortex-m3/include/minigui/minigui.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/stdio.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/uClibc_stdio.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/wchar.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/wchar.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/uClibc_mutex.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/uClibc_pthread.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../lib/gcc/arm-uclinuxeabi/4.4.1/include/stdarg.h:
+
+/usr/local/minigui/cross/arm/cortex-m3/include/minigui/gdi.h:
+
+/usr/local/minigui/cross/arm/cortex-m3/include/minigui/endianrw.h:
+
+/usr/local/minigui/cross/arm/cortex-m3/include/minigui/fixedmath.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/errno.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/bits/errno.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/linux/errno.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/asm/errno.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/asm-generic/errno.h:
+
+/home/hujiafu/uclinux/git_uclinux/lpc1788_uclinux/cortexm_uclinux-master/cross_tools/arm-2010q1-uclinux/bin/../arm-uclinuxeabi/libc/usr/include/asm-generic/errno-base.h:
+
+pen.h:
+
+path.h:
+
+../agg/agg_path_storage.h:
+
+../agg/agg_bezier_arc.h:
+
+../agg/agg_basics.h:
+
+../agg/agg_curves.h:
+
+../agg/agg_arc.h:
+
+../agg/agg_conv_bspline.h:
+
+../agg/agg_vcgen_bspline.h:
+
+../agg/agg_path_storage_integer.h:
+
+../agg/agg_rounded_rect.h:
+
+../agg/agg_arc.h:
+
+../agg/agg_conv_curve.h:
+
+../agg/agg_curves.h:
+
+graphics.h:
+
+../agg/agg_rendering_buffer.h:
+
+../agg/agg_rasterizer_scanline_aa.h:
+
+../agg/agg_rasterizer_cells_aa.h:
+
+../agg/agg_rasterizer_sl_clip.h:
+
+../agg/agg_clip_liang_barsky.h:
+
+../agg/agg_gamma_functions.h:
+
+../agg/agg_scanline_p.h:
+
+../agg/agg_renderer_scanline.h:
+
+../agg/agg_conv_segmentator.h:
+
+../agg/agg_conv_adaptor_vpgen.h:
+
+../agg/agg_vpgen_segmentator.h:
+
+../agg/agg_trans_single_path.h:
+
+../agg/agg_image_accessors.h:
+
+../agg/interactive_polygon.h:
+
+../agg/agg_span_allocator.h:
+
+../agg/agg_span_interpolator_linear.h:
+
+../agg/agg_span_image_filter_rgb.h:
+
+../agg/agg_span_image_filter.h:
+
+../agg/agg_image_filters.h:
+
+../agg/agg_span_interpolator_linear.h:
+
+../agg/agg_span_image_filter_rgba.h:
+
+../agg/agg_span_image_filter_gray.h:
+
+../agg/agg_span_gouraud_rgba.h:
+
+../agg/agg_span_gouraud.h:
+
+../agg/agg_spline_ctrl.h:
+
+../agg/agg_path_storage.h:
+
+../agg/agg_trans_perspective.h:
+
+../agg/agg_pixfmt_gray.h:
+
+../agg/agg_alpha_mask_u8.h:
+
+../agg/agg_platform_support.h:
+
+../agg/agg_trans_viewport.h:
+
+brush.h:
+
+opt_basic.cpp:
+
+../agg/agg_conv_dash.h:
+
+../agg/agg_vcgen_dash.h:
+
+../agg/agg_math_stroke.h:
+
+../agg/agg_bounding_rect.h:
+
+../agg/agg_renderer_primitives.h:
+
+../agg/agg_ellipse_bresenham.h:
+
+../agg/agg_rasterizer_outline.h:
+
+../agg/agg_span_converter.h:
+
+self_stroke.h:
