@@ -1258,8 +1258,10 @@ draw_fold (HWND hWnd, HDC hdc, const RECT* pRect,
         int w, h;
         int centerX, centerY;
         char szValue[255];
-        HICON hFoldIcon   = (HICON)RetrieveRes (gui_GetIconFile("skin", (char*)SYSICON_TREEFOLD, szValue));
-        HICON hUnFoldIcon = (HICON)RetrieveRes (gui_GetIconFile("skin", (char*)SYSICON_TREEUNFOLD, szValue));
+        //HICON hFoldIcon   = (HICON)RetrieveRes (gui_GetIconFile("skin", (char*)SYSICON_TREEFOLD, szValue));
+        //HICON hUnFoldIcon = (HICON)RetrieveRes (gui_GetIconFile("skin", (char*)SYSICON_TREEUNFOLD, szValue));
+        HICON hFoldIcon   = (long)RetrieveRes (gui_GetIconFile("skin", (char*)SYSICON_TREEFOLD, szValue));
+        HICON hUnFoldIcon = (long)RetrieveRes (gui_GetIconFile("skin", (char*)SYSICON_TREEUNFOLD, szValue));
 
         w = RECTWP(pRect);
         h = RECTHP(pRect);
